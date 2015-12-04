@@ -12,8 +12,8 @@
 
 	</form>
 
-	</br>
-	</br> Item entered:
+	<br>
+	<br> Item entered:
 	<%=request.getParameter("theItem")%>
 	<%
 	List<String> items = (List<String>) session.getAttribute("myToDoList");
@@ -28,8 +28,7 @@
 		items.add(theItem);
 	}
 	%>
-	
-	
+		
 	<hr>
 	<b>To list items:</b>
 	<ol>
